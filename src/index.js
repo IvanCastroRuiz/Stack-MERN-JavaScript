@@ -1,7 +1,8 @@
-require('dotenv').config();
+// Para trabajar con las variables de entorno
+require('dotenv').config(); // Para importar las variables de entorno
 var mongoose = require('mongoose');
 var app = require('./app');
-var port = process.env.PORT || 4000;
+var port = process.env.PORT || 4000;  // Objeto process 
 
 // Operador ternario //
 const URI = process.env.MONGODB_URI 
