@@ -6,7 +6,7 @@ const app = express();
 // Configurar el servidor
 
 // middlewares
-// Se utiliza para realizar la comunicacion entre el servidor del fron y el back
+// Se utiliza para realizar la comunicacion entre el servidor del frontend y el backend
 app.use(cors()); 
 app.use(express.json());
 app.use(express.urlencoded());
